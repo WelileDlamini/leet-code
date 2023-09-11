@@ -15,6 +15,6 @@ class Solution:
                 
             else:
                 stack.append(c)
-
+   # new comment
         
         return True if not stack else False
