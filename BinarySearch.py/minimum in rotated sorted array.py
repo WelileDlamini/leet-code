@@ -1,3 +1,7 @@
+
+
+# fiding the minimum in a sorted array
+
 class Solution:
     def findMin(self, num: List[int]) -> int:
         res = num[0]

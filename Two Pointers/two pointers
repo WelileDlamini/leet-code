@@ -1,4 +1,4 @@
-# A valid Palindrome
+ # A valid Palindrome
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         newStr = " "
