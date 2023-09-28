@@ -10,7 +10,7 @@ class Solution:
             CountT[t[i]] = 1 + CountT.get(t[i], 0)
 
         for c in countS: # iterating through the hashmaps
-            if CountT[c] != countS.get(c, 0):
+            if CountT[c] != countS.get(c, 0):  
                 return False
             
         return True   
@@ -23,7 +23,7 @@ from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str)-> bool:
 
-        return Counter(s) == Counter(t)
+        return Counter(s) == Counter(t)  # this will return true or false
     
 # you can also sort them
 class Solution:
