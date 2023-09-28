@@ -13,7 +13,7 @@ class Solution:
             if CountT[c] != countS.get(c, 0):
                 return False
             
-        return True
+        return True   
     
 
 # you can also use counter which is a hashmap in python
